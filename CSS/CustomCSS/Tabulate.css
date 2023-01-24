@@ -1,0 +1,34 @@
+.maincontainer{
+position: absolute;
+margin-top: 100px;
+margin-left: 200px;
+}
+#example-table{
+width: auto;
+}
+.buttoncontainer{
+	text-align: right;
+}
+.btn{
+	margin-bottom: 15px;
+	padding: 5px;
+	font-size: 1.2em;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 150px;
+}
+#name:invalid{
+	animation: shake .5s ease-in-out 0s 2;
+	animation-iteration-count: infinite;
+	box-shadow: 0 0 0.5em red;
+}
+#phno:invalid{
+	animation: shake .5s ease-in-out 0s 2;
+	animation-iteration-count: infinite;
+	box-shadow: 0 0 0.5em red;
+}
+@keyframes shake{
+	25% { transform: translateX(4px)}
+	50% { transform: translateX(-4px)}
+	75% { transform: translateX(4px)}
+}

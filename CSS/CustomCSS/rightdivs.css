@@ -1,0 +1,19 @@
+#maindiv{
+background-color: blue;
+}
+#subdiv{
+float: right;
+background-color: brown;
+}
+#subdiv ul li{
+display: inline;
+margin-right: 5px;
+}
+#nav li a{
+	text-decoration: none;
+}
+.active{
+	/*pointer-events:none;
+	opacity:0.4;*/
+	background-color: blue;
+}

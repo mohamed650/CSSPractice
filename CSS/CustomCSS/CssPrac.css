@@ -1,0 +1,198 @@
+.maincontainer{
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, sans-serif;
+}
+.topnav{
+	overflow: hidden;
+	background-color: #FAF7F0;
+}
+#brand{
+	font-size: 1.6em;
+	text-transform: uppercase;
+	color: #333;
+	font-family: 'Brush Script MT', cursive;
+}
+.topnav a{
+	float: left;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1.3em;
+	color: #333;
+}
+.topnav a:hover{
+	color: #98A8F8;
+}
+.topnav .topnav-right{
+	float: right;
+}
+.topnav .icon {
+  display: none;
+}
+.bodycontainer{
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  background-opacity: 0.3;
+} 
+.imgcontainer img{
+	width: 480px;
+	height: 450px;
+	margin-top: 50px;
+	padding: 35px;
+}
+.row .content{
+	margin-top: 50px;
+	padding: 55px;
+}
+#heading{
+	font-weight: bold;
+	font-size: 2.5em;
+}
+#aboutme{
+	font-weight: bold;
+	font-size: 1.2em;
+	opacity: 0.6;
+}
+#myname{
+	font-weight: bold;
+	font-size: 3.5em;
+}
+.myposition{
+	font-weight: bold;
+	font-size: 1.2em;
+	opacity: 0.6;
+}
+.connectbutton{
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+	border: none;
+	font-weight: 500;
+	padding: 10px;
+	color: #fff;
+}
+.connectbutton:hover{
+	box-shadow: 10px 10px 50px #8490ff;
+}
+.container .row .aboutsection{
+	margin-top: 50px;
+	padding: 55px;
+}
+#aboutcontent{
+	font-weight: bold;
+	font-size: 1.2em;
+	opacity: 0.6;
+}
+#personaldetails{
+	font-weight: bold;
+	font-size: 2.5em;
+}
+#details{
+	opacity: 0.8;
+	line-height: 30px;
+}
+#servicesoffered{
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+#servicesresolution{
+	text-align: center;
+	font-size: 1.1em;
+	opacity: 0.8;
+}
+.serviceicons{
+	margin-top: 20px;
+}
+.serviceicons:hover{ 
+	color: #8490ff;
+}
+.servicestitle{
+	margin-top: 20px;
+	font-size: 1.5em;
+}
+.servicestitle:hover{
+	color: #5f2c82;
+	cursor: pointer;
+}
+.servicesdescription{
+	margin-top: 15px;
+	line-height: 32px;
+	font-size: 1.2em;
+	opacity: 0.8;
+}
+.footercontent{
+	margin-top: 35px;
+	background-color: #04091e;
+	color: #fff;
+	padding: 80px 80px 0px 80px;
+}
+.footerrow{
+	padding: 50px;
+}
+.footertitle{
+	font-size: 1.7em;
+}
+.footerdescription{
+	color: #777;
+	opacity: 0.8;
+}
+.footericons{
+	margin: 5px;
+	cursor: pointer;
+}
+input[type="email"]{
+	width: 300px;
+	outline: none;
+	padding: 8px;
+}
+input[type="text"]{
+	margin-left: 13px;
+	width: 300px;
+	outline: none;
+	padding: 8px;
+}
+#queryemail{
+	margin-left: 13px;
+	width: 300px;
+	outline: none;
+	padding: 8px;
+}
+textarea[type="text"]{
+	margin-left: 13px;
+	width: 300px;
+	outline: none;
+	padding: 8px;
+}
+footer .heart {
+  color: #B22222;
+  font-size: 1.5em
+}
+#authorname{
+	font-size: 1.4em;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+	  display: none;
+	}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+	  position: relative;
+	}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
